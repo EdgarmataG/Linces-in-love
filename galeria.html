@@ -37,10 +37,28 @@
       transform: scale(1.05);
       box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
     }
+
+    .volver-btn {
+      margin: 20px;
+      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .volver-btn:hover {
+      background-color: black;
+    }
   </style>
 </head>
 <body>
   <h1>Galería de Imágenes</h1>
+
   <div class="galeria">
     <a href="imagen1.jpg" target="_blank"><img src="imagen1.jpg" alt="Imagen 1" /></a>
     <a href="imagen2.jpg" target="_blank"><img src="imagen2.jpg" alt="Imagen 2" /></a>
@@ -49,5 +67,7 @@
     <a href="imagen5.jpg" target="_blank"><img src="imagen5.jpg" alt="Imagen 5" /></a>
     <a href="imagen6.jpg" target="_blank"><img src="imagen6.jpg" alt="Imagen 6" /></a>
   </div>
+
+  <a href="index.html" class="volver-btn">← Volver al inicio</a>
 </body>
 </html>
